@@ -49,29 +49,32 @@
 
 .navbar-four {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
-
 .navbar-four div  {
     display: flex;
-    object-position: left;
+    justify-content: flex-start;
     gap: 20px;
 }
-.navbar-four-ul {
+.navbar-four-ul span {
     display: flex;
-    justify-content: flex-start;
-    /*justify-items: left;*/
-    /*align-items: flex-start;*/
-    object-position: left;
+    flex-direction: row;
+    justify-items: left;
+    /*align-content: flex-start;*/
 }
+/*span {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: flex-start;*/
+/*}*/
 .navbar-four li {
     display: flex;
-
+    /*align-items: start;*/
 }
 .navbar-four-buttons {
     display: flex;
-    justify-items: flex-end;
+    align-content: baseline;
     gap: 10px;
 }
 
@@ -83,13 +86,13 @@
 }
 .navbar-five div {
     display: flex;
-    object-position: left;
+    justify-content: flex-start;
     gap: 20px;
 }
 .navbar-five ul {
     display: flex;
     justify-content: start;
-    align-content:center;
+    align-content: center;
 }
 .navbar-five li {
     display: flex;
