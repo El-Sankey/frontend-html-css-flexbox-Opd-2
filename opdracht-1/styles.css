@@ -1,3 +1,4 @@
+
 .navbar-one ul {
     display: flex;
     justify-content: space-between;
@@ -5,7 +6,9 @@
 .navbar-one li {
     display: flex;
 }
-/*------------------------------*/
+
+/*----------------------------------*/
+
 .navbar-two ul {
     display: flex;
     justify-content: flex-end;
@@ -13,7 +16,9 @@
 .navbar-two li {
     display: flex;
 }
+
 /*-----------------------------------*/
+
 .navbar-three {
     display: flex;
     justify-content: space-between;
@@ -22,44 +27,68 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /*align-self: center;*/
     gap: 20px;
 }
 .navbar-three ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    justify-items: baseline;
 }
 .navbar-three li {
     display: flex;
 }
-/*---------------------------------*/
-.navbar-four {
-    display: flex;
-    justify-content: space-between;
-}
 
-.navbar-four div {
+/*------------------------------------*/
+
+.navbar-four {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.navbar-four div  {
+    display: flex;
+    object-position: left;
     gap: 20px;
 }
 .navbar-four-ul {
     display: flex;
-    /*justify-content: space-between ;*/
-    /*align-items: center;*/
+    justify-content: flex-start;
+    /*justify-items: left;*/
+    /*align-items: flex-start;*/
+    object-position: left;
+}
+.navbar-four li {
+    display: flex;
+
 }
 .navbar-four-buttons {
     display: flex;
-    justify-items: flex-start;
-    /*align-items: flex-start;*/
+    justify-items: flex-end;
+    gap: 10px;
 }
 
+/*-------------------------------------*/
+.navbar-five {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-five div {
+    display: flex;
+    object-position: left;
+    gap: 20px;
+}
 .navbar-five ul {
     display: flex;
+    justify-content: start;
+    align-content:center;
 }
 .navbar-five li {
     display: flex;
+}
+.navbar-five-buttons {
+    display: flex;
+    alignment-baseline: center;
+    gap: 10px;
 }
