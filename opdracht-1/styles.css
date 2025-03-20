@@ -1,3 +1,10 @@
+.button-primary {
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.button-primary:hover {
+    background-color: rgba(1,25,1,0.5);
+}
 
 .navbar-one ul {
     display: flex;
