@@ -1,0 +1,43 @@
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+/*///////////// 3. Header ////////////*/
+
+
+
+/*/////////////  4. Main /////////////*/
+
+
+
+
+/*///////////// 5. nav ///////////////*/
+.nav-img {
+    display: flex;
+    flex-basis: 100px;
+        /*justify-content: left;*/
+    /*flex-direction: column;*/
+}
+.images {
+    display: flex;
+    j
+    flex-basis: 10px;
+
+}
+
+
+
+
+/*///////////// 5. Footer /////////////*/
+
+
+
