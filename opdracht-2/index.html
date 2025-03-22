@@ -7,41 +7,66 @@
     <title>NOVI Flexbox opdracht 2</title>
 </head>
 <body>
-
-<header>
-    <h1>Opleidingsaanbod</h1>
-</header>
-
 <!--Verdeel jouw pagina in een zijmenu (links) en de hoofdcontent (rechts).-->
 
+<aside class="aside"><!--zij menu-->
+    <nav class="aside-nav">
+        <ul class="aside--ul">
+            <li class="aside---li">
+                <img src="../assets/logo-acme.svg" alt="acme-logo">
+                <p>NOVI Futuristic Inc</p>
 
-<div class="colum-1"><!--zij menu-->
-    <nav class="colum-2" >
-            <img src="../assets/logo-acme.svg" alt="acme-logo">NOVI Futuristic Inc
-            <img src="../assets/home.svg" alt="home-logo">Dashboard
-            <img src="../assets/apps.svg" alt="">Projecten
-            <img src="../assets/calendar.svg" alt="calendar-logo">Opleidingen en trainingen
-            <img src="../assets/graduation-cap.svg" alt="congrats-logo">Cursusmateriaal
+                <img src="../assets/home.svg" alt="home-logo">
+                <p>Dashboard</p>
+
+                <img src="../assets/apps.svg" alt="">
+                <p>Projecten</p>
+
+                <img src="../assets/calendar.svg" alt="calendar-logo">
+                <p>Opleidingen en trainingen</p>
+
+                <img src="../assets/graduation-cap.svg" alt="congrats-logo">
+                <p>Cursusmateriaal</p>
+
+                <button
+                        class="button-primary" type="button">Meld je aan
+                </button>
+                <button
+                        class="button-secondary" type="button">Login
+                </button>
+            </li>
+        </ul>
     </nav>
-</div>
+</aside>
 
-<main>
-    <article>
+<div class="header">
+    <header>
         <h1>Opleidingsaanbod</h1>
+    </header>
 
-        <p>Tijd om je flexbox-skills verder te ontwikkelen! In deze opdracht ga je een complete paginalayout maken,
-            inclusief een zijmenu, een header, een footer en een dynamische contentsectie. Geen zorgen: dit doen we stap voor stap. Uiteindelijk moet jouw pagina er zo uitzien:
-        </p>
+    <main class="main">
+        <section>
+            <p>
+                Tijd om je flexbox-skills verder te ontwikkelen! In deze opdracht ga je een complete paginalayout maken,
+                inclusief een zijmenu, een header, een footer en een dynamische contentsectie. Geen zorgen: dit doen we
+                stap voor stap. Uiteindelijk moet jouw pagina er zo uitzien:
+            </p>
 
-        <a href="../assets/screenshots/screenshot-eindresultaat.png">[screenshot-eindresultaat-desktop.png](assets/screenshots/screenshot-eindresultaat-desktop.png)</a>
+            <a
+                    href="../assets/screenshots/screenshot-eindresultaat-desktop.png">[screenshot-eindresultaat-desktop.png](assets/screenshots/screenshot-eindresultaat-desktop.png)
+            </a>
+        </section>
 
-        <p>Ook hier gebruik je **uitsluitend** flexbox properties. `padding` mag je wél toepassen, maar `position` en `margin` blijven verboden terrein.
-        </p>
-    </article>
-</main>
-
-<footer>
-
-</footer>
+        <section>
+            <p>
+                Ook hier gebruik je **uitsluitend** flexbox properties. `padding` mag je wél toepassen, maar `position`
+                en `margin` blijven verboden terrein.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>© NOVI Hogeschool</p>
+    </footer>
+</div>
 </body>
 </html>

@@ -57,7 +57,7 @@
     justify-content: flex-start;
     gap: 20px;
 }
-.navbar-four-ul span {
+.navbar-four-ul {
     display: flex;
     flex-direction: row;
     justify-items: left;
@@ -65,10 +65,11 @@
 .navbar-four li {
     display: flex;
     align-items: start;
+    flex-grow: 1;
 }
 .navbar-four-buttons {
     display: flex;
-    align-content: baseline;
+    justify-content: flex-end;
     gap: 10px;
 }
 
