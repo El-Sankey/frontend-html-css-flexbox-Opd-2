@@ -8,71 +8,100 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     display: flex;
     flex-direction: row;
     min-height: 100vh;
-    /*background-color: chocolate;*/
-
+    background-color: skyblue;
 }
 
 /*///////////// 2. nav ///////////////*/
 
 
-.aside{
+.aside {
     display: flex;
-    flex-basis: 10%;
-    box-sizing: border-box;
-    background-color: turquoise;
+    flex-basis: 20vw;
+    /*box-sizing: border-box;*/
+    background-color: darkgray;
     flex-shrink: 0;
-    flex-grow: 1;
-    /*height: 370vh;*/
-    /*width: 150px;*/
+    flex-grow: 0;
+    height: 150vh;
 }
+
 .aside-nav {
     display: flex;
-    flex-basis: 20%;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+    flex-basis: auto;
+    /*flex-wrap: wrap;*/
+    justify-content: end;
     padding: 10px;
-
 }
+
 .aside--ul {
     display: flex;
-    flex-basis: 120%;
+    /*flex-basis: 550%;*/
 
 }
 
 .aside---li {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     align-items: baseline;
-
-
+    /*max-height: 550px;*/
 }
 
+img {
+    max-height: 15px;
+}
+
+button {
+    align-items: flex-end;
+}
 
 /*///////////// 3. Header ////////////*/
-header {
+.header {
     display: flex;
-    flex-basis: 57.6%;
-    flex-shrink: 1;
-    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    background-color: chartreuse;
+    flex-basis: 200px;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 
 
 /*///////////// 4. Main  /////////////*/
-main {
+.main {
     display: flex;
-    flex-basis: 180vh;
-
+    flex-basis: auto;
+    flex-direction: row;
+    background-color: turquoise;
+    white-space: nowrap;
+    overflow: visible;
 }
 
 
 /*//////////// 5. Footer /////////////*/
-footer {
-    flex-basis: 10%;
-}
+/*footer {*/
+display: flex
+
+;
+justify-content: center
+
+;
+color: white
+
+;
+background-color: #383838
+
+;
+padding:
+
+20
+px
+
+;
+/*}*/
 
 
 
