@@ -74,24 +74,75 @@ header {
     min-height: 100vh;
 }
 
+headerIMG {
+    display: flex;
+    flex-basis: auto;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+
+}
 
 /*///////////// 4. Main  /////////////*/
 main {
     flex: 1;
-    background: #909
+    background: #910
 }
 p.visible{
     overflow: visible;
 }
 
+.inner-row {
+    display: flex;
+    background-color: red;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.inner-col {
+    display: flex;
+    backgound-color: blue;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 800px;
+    padding: 20px;
+}
+.productkaart {
+    width: 260px;
+    background: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.productkaart h3 {
+    margin: 0 0 8px;
+}
+.productkaart p {
+    font-size: 14px;
+    color: #555;
+}
 
 /*//////////// 5. Footer /////////////*/
 
 footer {
     display: flex;
     justify-content: center;
+    /*text-align: center;*/
     font-size: 8px;
-    text-align: center;
     background: #383838;
     color: white;
     padding: 10px;
